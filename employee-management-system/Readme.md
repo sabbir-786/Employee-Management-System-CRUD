@@ -686,7 +686,7 @@ You have this line:
 The double asterisk (`/**`) is a wildcard that matches **everything** after `/api/employees/`.
 
 * **Result:** **ALL** your endpoints (Create, Get, Update, Delete, Batch Delete) are now **PUBLIC**.
-* **Impact on Testing:** You do **NOT** need to set up "Basic Auth" or login for *any* of these tests. 
+* **Impact on Testing:** You do **NOT** need to set up "Basic Auth" or login for *any* of these tests.
 * You can just hit the buttons in Postman.
 
 ### **Postman Test Collection (Public Mode)**
